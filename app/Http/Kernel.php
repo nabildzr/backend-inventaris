@@ -16,7 +16,6 @@ class Kernel extends HttpKernel
 
 
     protected $routeMiddleware = [
-        // 'auth.token' => \App\Http\Middleware\EnsureTokenIsValid::class
-        'auth.token' => \App\Http\Middleware\EnsureTokenIsValid::class,
+        'auth.token' => \App\Http\Middleware\EnsureTokenIsValid::class
     ];
 }
